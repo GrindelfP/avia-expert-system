@@ -1,0 +1,16 @@
+= Avia Expert System =
+
+== Description ==
+This is a project which aims to create a simple expert system. Its purpose is to advice its user steps to reach the certain goal: take a flight to a different country's capital.
+
+== Usage ==
+The program is a JavaFX application written on Kotlin language, which will provide user with several choices to determine the user's situation and give him a correct course of action for a successful flight to his destination.
+
+== Knowledge base ==
+The expert system's knowledge base is predeclared as a text file in .json format. The knowledge representation model is a production model, stored as a list of entries, which contain following information:
+
+1. The entry's id, which will be used to formalize logical rules and get the results.
+2. The object name, with which the entry is associated.
+3. The entry's property, which itself is an object, containing string of lexical description and a scoring mark for formalizing the entry's importance.
+
+The logical rules are stored as a Kotlin Object, which holds functionality for generating a result, which will be presented to the user.
