@@ -10,4 +10,6 @@ module to.grindelf.expertsystem {
 
     opens to.grindelf.expertsystem to javafx.fxml;
     exports to.grindelf.expertsystem;
+    exports to.grindelf.expertsystem.controllers;
+    opens to.grindelf.expertsystem.controllers to javafx.fxml;
 }
