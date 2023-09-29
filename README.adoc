@@ -13,4 +13,194 @@ The expert system's knowledge base is predeclared as a text file in .json format
 2. The object name, with which the entry is associated.
 3. The entry's property, which itself is an object, containing string of lexical description and a scoring mark for formalizing the entry's importance.
 
-The logical rules are stored as a Kotlin Object, which holds functionality for generating a result, which will be presented to the user.
+The logical rules are stored as a Kotlin Object, which holds functionality for generating a result, which will be presented to the user. It will be presented as a text, containing instructions and advice, based on user's input.
+
+== Knowledge representation model ==
+
+The following table shows the knowledge base's knowledge representation model, which formalizes the different properties of 10 objects influencing the trip.
+
+.KRM
+|===
+|Object # |Object |ID |Property
+
+.2+|1
+.2+|Visa
+|A1
+|no visa
+
+|A2
+|visa obtained
+
+.2+|2
+.2+|Ticket
+|A3
+|no ticket
+
+|A4
+|ticket obtained
+
+.2+|3
+.2+|Free luggage
+|A5
+|no luggage required
+
+|A6
+|luggage is required
+
+.2+|4
+.2+|Climate at destination location
+|A7
+|is similar to departure location
+
+|A8
+|is different from departure location
+
+.3+|5
+.3+|Airport's usual fullness with people
+|A9
+|very busy
+
+|A10
+|is average
+
+|A11
+|is low
+
+.3+|6
+.3+|Road traffic at departure location
+|A12
+|traffic jams
+
+|A13
+|is average
+
+|A14
+|is low
+
+.3+|7
+.3+|One's knowledge of local languge of destination location
+|A15
+|no language knowledge
+
+|A16
+|base to intermediate knowledge of language
+
+|A17
+|advanced knowledge of language
+
+.3+|8
+.3+|Health condition
+|A18
+|ill
+
+|A19
+|malaise
+
+|A20
+|good
+
+.3+|9
+.3+|Financial condition
+|A21
+|tight budget
+
+|A22
+|just enough for trip
+
+|A23
+|mode than enough
+
+.2+|10
+.2+|Declaratory belongings
+|A24
+|don't have declaratory belongings
+
+|A25
+|have declaratory belongings
+|===
+
+== Logical rules ==
+
+The following table shows the logical rules, which are used to generate the result for the user. If the user's situation matches the rule's condition, the rule's advice will be added to the expert system's return.
+
+.LR
+|===
+|Condition |Advice
+
+|A1
+|Obtain a tourist visa of your destination country.
+
+|A2
+|Check whether your visa is valid and hasn't expired yet.
+
+|A3
+|Buy a plane ticket holding in mind your plans so you won't miss your flight and possible delays won't interrupt your plans.
+
+|A4
+|Precisely check your ticket's information, so you won't miss your flight.
+
+|A5
+|Check whether your ticket provides free of charge luggage and whether you can have refund for omitment of luggage.
+
+|A6
+|Check whether your ticket provides free of charge luggage and if not learn the price you have to pay for your luggage.
+
+|A7
+|Take only the clothes you need for your comfort in trip.
+
+|A8
+|Take in mind that you shall check the weather conditions at your destination and have with you clothes fitting the weather at your destination.
+
+|A9
+|Try to register on-line for your flight and make sure to arrive at the airport at least 2.5 hours before your flight.
+
+|A10
+|Register on-line for your flight and make sure to arrive at the airport at least 2 hours before your flight. If you want to register at the airport, make sure to arrive at least 2.5 -- 3 hours before your flight.
+
+|A11
+|Register on-line for your flight and make sure to arrive at the airport at least 1.5 -- 2 hours before your flight. If you want to register at the airport, make sure to arrive at least 2 -- 2.5 hours before your flight.
+
+|A12
+|Try to leave your home with enough time to spend in traffic jams. Bear in mind that traffic jams are possible at any time of the day and can be unpredictable.
+
+|A13
+|Try to leave your home with enough time on road. Bear in mind that traffic jams and difficult traffic are possible at any time of the day and can be unpredictable.
+
+|A14
+|Leave your home so that you arrive at the airport at least 15 minutes before your intended arrival at the airport so unpredictable difficult traffic won't affect your flight.
+
+|A15
+|Try to learn basic phrases in local language of your destination country. Also make a list of phrases you might need in your trip both in local and your language, so you can show the required phrase to the person you are talking to. Also make shure to have translator app on your phone and the local language packet is downloaded, so you don't need to rely on the internet connection.
+
+|A16
+|Think about situations you can face in your trip and fill lexical and grammar gaps you might have in those situations.
+
+|A17
+|Find a way to practice and master your language skill in real life or on-line, so that in stressful situation while you can be nervous, you won't experience difficulties in communication.
+
+|A18
+|Consider delaying the flight because flight's overloading can worsen your health condition.
+
+|A19
+|Consult your doctor about your health condition and whether you can take a flight. If flight is permitted by doctor, make sure to protect your health during and after flight, because you will encounter a lot of people and some of them can be ill.
+
+|A20
+|Make sure to protect your health during and after flight, because you will encounter a lot of people and some of them can be ill.
+
+|A21
+|Plan your trip so that you won't spend more money than you have. Also, learn whether you can have discounts in your trip. Consider delaying your trip if you can't afford it.
+
+|A22
+|Plan your trip so that you won't spend more money than you have. Also, learn whether you can have discounts in your trip. However, don't be too greedy, because you can miss a lot of interesting things.
+
+|A23
+|Monitor your spends, so you don't spend more money than you intend to. It is easy to spend more than you could have, but also don't be too greedy, because you can miss a lot of interesting things.
+
+|A24
+|Research the restrictions and goods which should be declared when crossing the border of your destination country. If you don't have any declaratory belongings, you should learn what to do with declaration sheets on the arrival.
+
+|A25
+|Research the restrictions and goods which should be declared when crossing the border of your destination country. If you have declaratory belongings, you should learn what to do with declaration sheets on the arrival.
+|===
+
+
