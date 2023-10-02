@@ -12,7 +12,12 @@ object SolverUtility {
      *
      * @return respond to the user's entries.
      */
-    fun solve(entries: List<String>): Respond = generateRespond(entries)
+    fun solve(entries: List<String>): Respond {
+        val respond = generateRespond(entries)
+        println(respond.value)
+
+        return respond
+    }
 
 
     /**
@@ -24,7 +29,7 @@ object SolverUtility {
     private fun generateRespond(entries: List<String>): Respond {
         var respond = ""
         entries.forEach { entry ->
-            respond = respond.plus("\t - ").plus(Responder.respond(entry)).plus("\n")
+            respond += "\t - ${Responder.respond(entry)}\n"
         }
 
         return Respond(respond)

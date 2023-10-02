@@ -3,10 +3,13 @@ package to.grindelf.expertsystem.domain
 import to.grindelf.expertsystem.utils.JsonOperator
 import to.grindelf.expertsystem.utils.Language
 
+/**
+ * Interface for initiating models.
+ */
 interface Initiatable {
 
     /**
-     * Initiates knowledge model based on language.
+     * Initiates model based on language.
      */
     fun <T> initiate(language: Language, producer: (language: Language) -> List<T>): List<T> = producer(language)
 }
@@ -16,12 +19,16 @@ interface Initiatable {
  * it produces knowledge model and stores it.
  */
 class KnowledgeModel(
-    private val language: Language
+    private val language: Language = Language.ENGLISH
 ) : Initiatable {
 
-    val knowledgeModel: List<KnowledgeModelEntry> = initiate(language, JsonOperator::produceKnowledgeModel)
+    val entries: List<KnowledgeModelEntry> = initiate(language, JsonOperator::produceKnowledgeModel)
 }
 
+/**
+ * Class for representing logical rules. When instantiated with necessary language
+ * it produces logical rules and stores it.
+ */
 class LogicalRules(
     private val language: Language
 ) : Initiatable {
