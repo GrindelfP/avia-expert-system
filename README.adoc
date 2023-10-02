@@ -78,7 +78,7 @@ The following table shows the knowledge base's knowledge representation model, w
 |is low
 
 .3+|7
-.3+|One's knowledge of local languge of destination location
+.3+|One's knowledge of local language of destination location
 |A15
 |no language knowledge
 
@@ -134,13 +134,13 @@ The following table shows the logical rules, which are used to generate the resu
 |Check whether your visa is valid and hasn't expired yet.
 
 |A3
-|Buy a plane ticket holding in mind your plans so you won't miss your flight and possible delays won't interrupt your plans.
+|Buy a plane ticket holding in mind your plans, so you won't miss your flight and possible delays won't interrupt your plans.
 
 |A4
 |Precisely check your ticket's information, so you won't miss your flight.
 
 |A5
-|Check whether your ticket provides free of charge luggage and whether you can have refund for omitment of luggage.
+|Check whether your ticket provides free of charge luggage and whether you can have refund for ommitment of luggage.
 
 |A6
 |Check whether your ticket provides free of charge luggage and if not learn the price you have to pay for your luggage.
@@ -170,7 +170,7 @@ The following table shows the logical rules, which are used to generate the resu
 |Leave your home so that you arrive at the airport at least 15 minutes before your intended arrival at the airport so unpredictable difficult traffic won't affect your flight.
 
 |A15
-|Try to learn basic phrases in local language of your destination country. Also make a list of phrases you might need in your trip both in local and your language, so you can show the required phrase to the person you are talking to. Also make shure to have translator app on your phone and the local language packet is downloaded, so you don't need to rely on the internet connection.
+|Try to learn basic phrases in local language of your destination country. Also make a list of phrases you might need in your trip both in local and your language, so you can show the required phrase to the person you are talking to. Also make sure to have translator app on your phone and the local language packet is downloaded, so you don't need to rely on the internet connection.
 
 |A16
 |Think about situations you can face in your trip and fill lexical and grammar gaps you might have in those situations.

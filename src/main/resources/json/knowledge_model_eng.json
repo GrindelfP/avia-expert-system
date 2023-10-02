@@ -1,0 +1,152 @@
+[
+  {
+    "objectId": 1,
+    "objectName": "Visa",
+    "propertyId": "A1",
+    "property": "no visa"
+  },
+  {
+    "objectId": 1,
+    "objectName": "Visa",
+    "propertyId": "A2",
+    "property": "visa obtained"
+  },
+  {
+    "objectId": 2,
+    "objectName": "Ticket",
+    "propertyId": "A3",
+    "property": "no ticket"
+  },
+  {
+    "objectId": 2,
+    "objectName": "Ticket",
+    "propertyId": "A4",
+    "property": "ticket obtained"
+  },
+  {
+    "objectId": 3,
+    "objectName": "Free luggage",
+    "propertyId": "A5",
+    "property": "no luggage required"
+  },
+  {
+    "objectId": 3,
+    "objectName": "Free luggage",
+    "propertyId": "A6",
+    "property": "luggage is required"
+  },
+  {
+    "objectId": 4,
+    "objectName": "Climate at destination location",
+    "propertyId": "A7",
+    "property": "is similar to departure location"
+  },
+  {
+    "objectId": 4,
+    "objectName": "Climate at destination location",
+    "propertyId": "A8",
+    "property": "is different from departure location"
+  },
+  {
+    "objectId": 5,
+    "objectName": "Airport's usual fullness with people",
+    "propertyId": "A9",
+    "property": "very busy"
+  },
+  {
+    "objectId": 5,
+    "objectName": "Airport's usual fullness with people",
+    "propertyId": "A10",
+    "property": "is average"
+  },
+  {
+    "objectId": 5,
+    "objectName": "Airport's usual fullness with people",
+    "propertyId": "A11",
+    "property": "is low"
+  },
+  {
+    "objectId": 6,
+    "objectName": "Road traffic at departure location",
+    "propertyId": "A12",
+    "property": "traffic jams"
+  },
+  {
+    "objectId": 6,
+    "objectName": "Road traffic at departure location",
+    "propertyId": "A13",
+    "property": "is average"
+  },
+  {
+    "objectId": 6,
+    "objectName": "Road traffic at departure location",
+    "propertyId": "A14",
+    "property": "is low"
+  },
+  {
+    "objectId": 7,
+    "objectName": "One's knowledge of local language of destination location",
+    "propertyId": "A15",
+    "property": "no language knowledge"
+  },
+  {
+    "objectId": 7,
+    "objectName": "One's knowledge of local language of destination location",
+    "propertyId": "A16",
+    "property": "base to intermediate knowledge of language"
+  },
+  {
+    "objectId": 7,
+    "objectName": "One's knowledge of local language of destination location",
+    "propertyId": "A17",
+    "property": "advanced knowledge of language"
+  },
+  {
+    "objectId": 8,
+    "objectName": "Health condition",
+    "propertyId": "A18",
+    "property": "ill"
+  },
+  {
+    "objectId": 8,
+    "objectName": "Health condition",
+    "propertyId": "A19",
+    "property": "malaise"
+  },
+  {
+    "objectId": 8,
+    "objectName": "Health condition",
+    "propertyId": "A20",
+    "property": "good"
+  },
+  {
+    "objectId": 9,
+    "objectName": "Financial condition",
+    "propertyId": "A21",
+    "property": "tight budget"
+  },
+  {
+    "objectId": 9,
+    "objectName": "Financial condition",
+    "propertyId": "A22",
+    "property": "just enough for trip"
+  },
+  {
+    "objectId": 9,
+    "objectName": "Financial condition",
+    "propertyId": "A23",
+    "property": "mode than enough"
+  },
+  {
+    "objectId": 10,
+    "objectName": "Declaratory belongings",
+    "propertyId": "A24",
+    "property": "don't have declaratory belongings"
+  },
+  {
+    "objectId": 10,
+    "objectName": "Declaratory belongings",
+    "propertyId": "A25",
+    "property": "have declaratory belongings"
+  }
+]

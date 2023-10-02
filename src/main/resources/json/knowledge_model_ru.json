@@ -1,0 +1,152 @@
+[
+  {
+    "objectId": 1,
+    "objectName": "Виза",
+    "propertyId": "А1",
+    "property": "без визы"
+  },
+  {
+    "objectId": 1,
+    "objectName": "Виза",
+    "propertyId": "А2",
+    "property": "виза получена"
+  },
+  {
+    "objectId": 2,
+    "objectName": "Билет",
+    "propertyId": "А3",
+    "property": "нет билета"
+  },
+  {
+    "objectId": 2,
+    "objectName": "Билет",
+    "propertyId": "А4",
+    "property": "билет получен"
+  },
+  {
+    "objectId": 3,
+    "objectName": "Бесплатный багаж",
+    "propertyId": "А5",
+    "property": "багаж не требуется"
+  },
+  {
+    "objectId": 3,
+    "objectName": "Бесплатный багаж",
+    "propertyId": "А6",
+    "property": "требуется багаж"
+  },
+  {
+    "objectId": 4,
+    "objectName": "Климат в пункте назначения",
+    "propertyId": "A7",
+    "property": "похожий на место отправления"
+  },
+  {
+    "objectId": 4,
+    "objectName": "Климат в пункте назначения",
+    "propertyId": "А8",
+    "property": "отличается от места отправления"
+  },
+  {
+    "objectId": 5,
+    "objectName": "Обычная заполненность аэропорта людьми",
+    "propertyId": "A9",
+    "property": "очень заполненный"
+  },
+  {
+    "objectId": 5,
+    "objectName": "Обычная заполненность аэропорта людьми",
+    "propertyId": "А10",
+    "property": "средне-заполненный"
+  },
+  {
+    "objectId": 5,
+    "objectName": "Обычная заполненность аэропорта людьми",
+    "propertyId": "А11",
+    "property": "малозаполненный"
+  },
+  {
+    "objectId": 6,
+    "objectName": "Дорожное движение в месте отправления",
+    "propertyId": "А12",
+    "property": "пробки"
+  },
+  {
+    "objectId": 6,
+    "objectName": "Дорожное движение в месте отправления",
+    "propertyId": "А13",
+    "property": "средняя загруженность"
+  },
+  {
+    "objectId": 6,
+    "objectName": "Дорожное движение в месте отправления",
+    "propertyId": "А14",
+    "property": "свободное движение"
+  },
+  {
+    "objectId": 7,
+    "objectName": "Знание местного языка места назначения",
+    "propertyId": "А15",
+    "property": "нет знания языка"
+  },
+  {
+    "objectId": 7,
+    "objectName": "Знание местного языка места назначения",
+    "propertyId": "А16",
+    "property": "базовое и среднее знание языка"
+  },
+  {
+    "objectId": 7,
+    "objectName": "Знание местного языка места назначения",
+    "propertyId": "А17",
+    "property": "продвинутое знание языка"
+  },
+  {
+    "objectId": 8,
+    "objectName": "Состояние здоровья",
+    "propertyId": "А18",
+    "property": "больной"
+  },
+  {
+    "objectId": 8,
+    "objectName": "Состояние здоровья",
+    "propertyId": "А19",
+    "property": "недомогание"
+  },
+  {
+    "objectId": 8,
+    "objectName": "Состояние здоровья",
+    "propertyId": "А20",
+    "property": "здоровый"
+  },
+  {
+    "objectId": 9,
+    "objectName": "Финансовое состояние",
+    "propertyId": "А21",
+    "property": "ограниченный бюджет"
+  },
+  {
+    "objectId": 9,
+    "objectName": "Финансовое состояние",
+    "propertyId": "А22",
+    "property": "средств достаточно для поездки"
+  },
+  {
+    "objectId": 9,
+    "objectName": "Финансовое состояние",
+    "propertyId": "А23",
+    "property": "более чем достаточно средств"
+  },
+  {
+    "objectId": 10,
+    "objectName": "Личные вещи, подлежащие декларации",
+    "propertyId": "А24",
+    "property": "нет вещей, подлежащих декларации"
+  },
+  {
+    "objectId": 10,
+    "objectName": "Личные вещи, подлежащие декларации",
+    "propertyId": "A25",
+    "property": "есть вещи, подлежащих декларации"
+  }
+]

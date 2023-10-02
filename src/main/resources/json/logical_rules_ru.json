@@ -1,0 +1,102 @@
+[
+  {
+    "condition": "A1",
+    "advice": "Obtain a tourist visa of your destination country."
+  },
+  {
+    "condition": "A2",
+    "advice": "Check whether your visa is valid and hasn't expired yet."
+  },
+  {
+    "condition": "A3",
+    "advice": "Buy a plane ticket holding in mind your plans, so you won't miss your flight and possible delays won't interrupt your plans."
+  },
+  {
+    "condition": "A4",
+    "advice": "Precisely check your ticket's information, so you won't miss your flight."
+  },
+  {
+    "condition": "A5",
+    "advice": "Check whether your ticket provides free of charge luggage and whether you can have refund for ommitment of luggage."
+  },
+  {
+    "condition": "A6",
+    "advice": "Check whether your ticket provides free of charge luggage and if not learn the price you have to pay for your luggage."
+  },
+  {
+    "condition": "A7",
+    "advice": "Take only the clothes you need for your comfort in trip."
+  },
+  {
+    "condition": "A8",
+    "advice": "Take in mind that you shall check the weather conditions at your destination and have with you clothes fitting the weather at your destination."
+  },
+  {
+    "condition": "A9",
+    "advice": "Try to register on-line for your flight and make sure to arrive at the airport at least 2.5 hours before your flight."
+  },
+  {
+    "condition": "A10",
+    "advice": "Register on-line for your flight and make sure to arrive at the airport at least 2 hours before your flight. If you want to register at the airport, make sure to arrive at least 2.5 -- 3 hours before your flight."
+  },
+  {
+    "condition": "A11",
+    "advice": "Register on-line for your flight and make sure to arrive at the airport at least 1.5 -- 2 hours before your flight. If you want to register at the airport, make sure to arrive at least 2 -- 2.5 hours before your flight."
+  },
+  {
+    "condition": "A12",
+    "advice": "Try to leave your home with enough time to spend in traffic jams. Bear in mind that traffic jams are possible at any time of the day and can be unpredictable."
+  },
+  {
+    "condition": "A13",
+    "advice": "Try to leave your home with enough time on road. Bear in mind that traffic jams and difficult traffic are possible at any time of the day and can be unpredictable."
+  },
+  {
+    "condition": "A14",
+    "advice": "Leave your home so that you arrive at the airport at least 15 minutes before your intended arrival at the airport so unpredictable difficult traffic won't affect your flight."
+  },
+  {
+    "condition": "A15",
+    "advice": "Try to learn basic phrases in local language of your destination country. Also make a list of phrases you might need in your trip both in local and your language, so you can show the required phrase to the person you are talking to. Also make sure to have translator app on your phone and the local language packet is downloaded, so you don't need to rely on the internet connection."
+  },
+  {
+    "condition": "A16",
+    "advice": "Think about situations you can face in your trip and fill lexical and grammar gaps you might have in those situations."
+  },
+  {
+    "condition": "A17",
+    "advice": "Find a way to practice and master your language skill in real life or on-line, so that in stressful situation while you can be nervous, you won't experience difficulties in communication."
+  },
+  {
+    "condition": "A18",
+    "advice": "Consider delaying the flight because flight's overloading can worsen your health condition."
+  },
+  {
+    "condition": "A19",
+    "advice": "Consult your doctor about your health condition and whether you can take a flight. If flight is permitted by doctor, make sure to protect your health during and after flight, because you will encounter a lot of people and some of them can be ill."
+  },
+  {
+    "condition": "A20",
+    "advice": "Make sure to protect your health during and after flight, because you will encounter a lot of people and some of them can be ill."
+  },
+  {
+    "condition": "A21",
+    "advice": "Plan your trip so that you won't spend more money than you have. Also, learn whether you can have discounts in your trip. Consider delaying your trip if you can't afford it."
+  },
+  {
+    "condition": "A22",
+    "advice": "Plan your trip so that you won't spend more money than you have. Also, learn whether you can have discounts in your trip. However, don't be too greedy, because you can miss a lot of interesting things."
+  },
+  {
+    "condition": "A23",
+    "advice": "Monitor your spends, so you don't spend more money than you intend to. It is easy to spend more than you could have, but also don't be too greedy, because you can miss a lot of interesting things."
+  },
+  {
+    "condition": "A24",
+    "advice": "Research the restrictions and goods which should be declared when crossing the border of your destination country. If you don't have any declaratory belongings, you should learn what to do with declaration sheets on the arrival."
+  },
+  {
+    "condition": "A25",
+    "advice": "Research the restrictions and goods which should be declared when crossing the border of your destination country. If you have declaratory belongings, you should learn what to do with declaration sheets on the arrival."
+  }
+]
